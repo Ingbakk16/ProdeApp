@@ -13,6 +13,7 @@ namespace ProdeApp.Domain.Entities
         public bool IsPrivate { get; set; }
         public string? Code { get; set; }
         public int? MaxMembers { get; set; }
+
         public DateTime? FinishDate { get; set; }
 
         public int OwnerId { get; set; }
