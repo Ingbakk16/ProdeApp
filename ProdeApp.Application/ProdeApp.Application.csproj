@@ -10,15 +10,4 @@
     <ProjectReference Include="..\ProdeApp.Domain\ProdeApp.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Dtos\" />
-    <Folder Include="Interfaces\IServices\" />
-    <Folder Include="Interfaces\Repositories\" />
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.5" />
-  </ItemGroup>
-
 </Project>
